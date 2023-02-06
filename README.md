@@ -1,7 +1,9 @@
 # Discord-Bot
 **A template for a discord bot with basic functionalities using discord.js**
+MongoDB will be used as a database for this bot.
 
-> Note: This project is still in progress
+
+> Note: This project is still in progress.
 
 ## Features to be added soon:
 - Server welcome/goodbye
