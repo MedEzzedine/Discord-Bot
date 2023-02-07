@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm install
-CMD ["npm", "install", "typescript", "ts-node"]
+RUN npm install && npm install typescript ts-node
+
 CMD ["npm", "start"]
