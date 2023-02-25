@@ -7,3 +7,5 @@ COPY . .
 RUN npm install && npm install typescript ts-node
 
 CMD ["npm", "start"]
+
+RUN echo 'Bot successfully deployed'
