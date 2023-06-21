@@ -2,8 +2,10 @@ import { Client, IntentsBitField, Partials } from "discord.js";
 import WOK from "wokcommands";
 import path from "path";
 import dotenv from "dotenv";
+import keepAlive from "./keep_alive";
 
 dotenv.config();
+keepAlive.listen(process.env.PORT || 8080);
 
 const client = new Client({
   intents: [IntentsBitField.Flags.Guilds, IntentsBitField.Flags.GuildMessages],
